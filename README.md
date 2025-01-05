@@ -31,7 +31,7 @@ Dieses Beispiel darf entsprechend der MIT-Lizenz frei verwendet werden. Es wäre
 
 
 
-# Input of numbers
+# comma-and-dot
 
 ## Description
 
