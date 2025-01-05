@@ -26,7 +26,7 @@ https://haraldnieswandt.de/
 
 ## Lizenz
 
-Dieses Beispiel darf frei verwendet werden. Es wäre nett, wenn Du mich bei der Verwendung erwähnst.
+Dieses Beispiel darf entsprechend der MIT-Lizenz frei verwendet werden. Es wäre nett, wenn Du mich bei der Verwendung erwähnst.
 
 
 
@@ -61,7 +61,7 @@ https://haraldnieswandt.de/
 
 ## License
 
-Anyone can use it for free. It would be nice if you mentioned my name.
+This example may be used freely under the MIT license. It would be nice if you mention me when using it.
 
 
 
