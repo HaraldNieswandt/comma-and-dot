@@ -1,4 +1,5 @@
-# comma-and-dot
+# Eingabe von Zahlen
+
 ## Beschreibung
 
 Dies ist ein Beispiel für Free-Pascal / Lazarus Anwendungen.
@@ -27,11 +28,11 @@ https://haraldnieswandt.de/
 
 ## Lizenz
 
-Dieses Beispiel darf entsprechend der MIT-Lizenz frei verwendet werden. Es wäre nett, wenn Du mich bei der Verwendung erwähnst.
+Dieses Beispiel darf frei verwendet werden. Es wäre nett, wenn Du mich bei der Verwendung erwähnst.
 
 
 
-# comma-and-dot
+# Input of numbers
 
 ## Description
 
@@ -64,7 +65,8 @@ https://haraldnieswandt.de/
 
 ## License
 
-This example may be used freely under the MIT license. It would be nice if you mention me when using it.
+Anyone can use it for free. It would be nice if you mentioned my name.
+
 
 
 

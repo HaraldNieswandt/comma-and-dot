@@ -1,0 +1,42 @@
+object MyInfoForm: TMyInfoForm
+  Left = 1100
+  Height = 620
+  Top = 390
+  Width = 806
+  Caption = 'Information'
+  ClientHeight = 620
+  ClientWidth = 806
+  Menu = MainMenu1
+  LCLVersion = '3.7.0.0'
+  object InfoMemo: TMemo
+    Left = 0
+    Height = 620
+    Top = 0
+    Width = 806
+    Align = alClient
+    Font.Height = -13
+    Font.Name = 'Liberation Mono'
+    ParentFont = False
+    ScrollBars = ssAutoBoth
+    TabOrder = 0
+    WordWrap = False
+  end
+  object MainMenu1: TMainMenu
+    Left = 155
+    Top = 73
+    object MenuItem1: TMenuItem
+      Caption = 'File'
+      object MenuItem3: TMenuItem
+        Caption = 'clear screen'
+        OnClick = MenuItem3Click
+      end
+      object Separator1: TMenuItem
+        Caption = '-'
+      end
+      object MenuItem2: TMenuItem
+        Caption = 'quit'
+        OnClick = MenuItem2Click
+      end
+    end
+  end
+end
