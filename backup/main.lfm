@@ -1,0 +1,185 @@
+object MainForm: TMainForm
+  Left = 259
+  Height = 680
+  Top = 90
+  Width = 835
+  Caption = 'MainForm'
+  ClientHeight = 680
+  ClientWidth = 835
+  LCLVersion = '3.6.0.0'
+  object FloatEdit: TEdit
+    Left = 215
+    Height = 28
+    Top = 25
+    Width = 119
+    Alignment = taRightJustify
+    TabOrder = 0
+    Text = '-5001.123e-2'
+    OnKeyPress = FloatInput
+  end
+  object Label1: TLabel
+    Left = 40
+    Height = 16
+    Top = 30
+    Width = 169
+    Alignment = taRightJustify
+    Caption = 'A Edit: Input a float number:'
+  end
+  object Button1: TButton
+    Left = 370
+    Height = 25
+    Top = 295
+    Width = 75
+    Caption = 'ok'
+    TabOrder = 5
+    OnClick = Button1Click
+  end
+  object MyMemo: TMemo
+    Left = 0
+    Height = 350
+    Top = 330
+    Width = 835
+    Align = alBottom
+    Font.Height = -13
+    Font.Name = 'Liberation Mono'
+    ParentFont = False
+    TabOrder = 6
+  end
+  object IntEdit1: TEdit
+    Left = 215
+    Height = 28
+    Top = 170
+    Width = 119
+    Alignment = taRightJustify
+    TabOrder = 2
+    Text = '42'
+    OnKeyPress = IntInput
+  end
+  object LabeledEdit: TLabeledEdit
+    Left = 94
+    Height = 28
+    Top = 95
+    Width = 240
+    Alignment = taRightJustify
+    EditLabel.Height = 16
+    EditLabel.Width = 240
+    EditLabel.Caption = 'A LabeledEdit: Input a float number:'
+    TabOrder = 1
+    Text = '1.234e2'
+    OnKeyPress = FloatInput
+  end
+  object Label2: TLabel
+    Left = 26
+    Height = 16
+    Top = 175
+    Width = 183
+    Caption = 'A Edit: Input a integer number:'
+  end
+  object SpinEditEx1: TSpinEditEx
+    Left = 625
+    Height = 28
+    Top = 170
+    Width = 103
+    MaxLength = 0
+    TabOrder = 4
+    NullValue = 0
+    UpDownVisible = False
+    Value = 42
+  end
+  object Label3: TLabel
+    Left = 445
+    Height = 16
+    Top = 175
+    Width = 178
+    Caption = 'A SpinEditEx: Input a number:'
+  end
+  object FloatSpinEditEx: TFloatSpinEditEx
+    Left = 625
+    Height = 28
+    Top = 25
+    Width = 103
+    MaxLength = 0
+    TabOrder = 3
+    DecimalPlaces = 6
+    UpDownVisible = False
+    Value = 42.42
+    Precision = 12
+  end
+  object Label4: TLabel
+    Left = 427
+    Height = 16
+    Top = 30
+    Width = 196
+    Caption = 'FloatSpinEditEx: Input a number:'
+  end
+  object Label5: TLabel
+    Left = 26
+    Height = 16
+    Top = 210
+    Width = 183
+    Caption = 'A Edit: Input a integer number:'
+  end
+  object IntEdit2: TEdit
+    Left = 215
+    Height = 28
+    Top = 205
+    Width = 119
+    Alignment = taRightJustify
+    TabOrder = 7
+    Text = '123456'
+    OnKeyPress = IntInput
+  end
+  object IntEdit3: TEdit
+    Left = 215
+    Height = 28
+    Top = 240
+    Width = 119
+    Alignment = taRightJustify
+    TabOrder = 8
+    Text = '112'
+    OnKeyPress = IntInput
+  end
+  object Label6: TLabel
+    Left = 26
+    Height = 16
+    Top = 245
+    Width = 183
+    Caption = 'A Edit: Input a integer number:'
+  end
+  object Label7: TLabel
+    Left = 445
+    Height = 16
+    Top = 210
+    Width = 178
+    Caption = 'A SpinEditEx: Input a number:'
+  end
+  object SpinEditEx2: TSpinEditEx
+    Left = 625
+    Height = 28
+    Top = 205
+    Width = 103
+    MaxLength = 0
+    TabOrder = 9
+    NullValue = 0
+    UpDownVisible = False
+    Value = 123456
+  end
+  object Label8: TLabel
+    Left = 445
+    Height = 16
+    Top = 245
+    Width = 178
+    Caption = 'A SpinEditEx: Input a number:'
+  end
+  object SpinEditEx3: TSpinEditEx
+    Left = 625
+    Height = 28
+    Top = 240
+    Width = 103
+    MaxLength = 0
+    TabOrder = 10
+    NullValue = 0
+    UpDownVisible = False
+    Value = 112
+  end
+end
