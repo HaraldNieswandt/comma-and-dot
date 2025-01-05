@@ -12,8 +12,6 @@ Eine ausführliche Beschreibung ist in der Datei "CommaAndDot.pdf" zu finden.
 
 Dieses Beispiel ist mit Linux Mint und Windows 10 getestet und läuft auf beiden Systemen.
 
-Die kompletten Projektdateien und der Quelltext sind im "Master" Branch zu finden (in der kleinen Auswahlbox oben "Master" wählen).
-
 Zum Testen und Verwenden ist die Lazarus IDE mit Free-Pascal erforderlich, die dort zu finden ist: https://www.lazarus-ide.org/
 
 ## Unterstützung
@@ -46,8 +44,6 @@ A detailed description can be found in the file CommaAndDot.pdf in this director
 ## Usage
 
 This example has been tested with Linux Mint and Windows 10 - it runs well on both.
-
-The complete project and source code are available in the "master" branch (use the selection box above to switch from "main" to "master").
 
 To test it and use it you need the Lazarus IDE with Free-Pascal. The download is possible there: https://www.lazarus-ide.org/
 
